@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #4fa3ff, #f2f2f2);
+  margin: 0;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  color: #064f47;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005a4f;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+#toggleUnit {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.loader {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+  display: none;
+}
+
+
+.card {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #c3f5f5;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card.hide {
+  display: none;
+}
+
+.icon-box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#placeName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#tempValue {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+#weatherStatus {
+  font-size: 16px;
+  color: #f0f0f0;
+}

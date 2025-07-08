@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-box">
+    <h2>Weather Infomation</h2>
+
+    <button id="checkWeatherBtn">Check Weather</button>
+
+    <label class="temp-switch">
+      <input type="checkbox" id="toggleUnit"> Use Fahrenheit
+    </label>
+
+    <div id="loader" class="loader">Getting data...</div>
+
+    <div id="weatherBox" class="card hide">
+      <div class="icon-box" id="weatherIconBox"></div>
+      <div class="info-box">
+        <h3 id="placeName"></h3>
+        <p id="tempValue"></p>
+        <p id="weatherStatus"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
