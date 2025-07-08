@@ -2,13 +2,24 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to bottom, #4fa3ff, #f2f2f2);
   margin: 0;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
-  color: #064f47;
-  border-radius: 10px;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
+
+.main-box {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 
 h2 {
   font-size: 20px;
@@ -94,3 +105,4 @@ label {
   font-size: 16px;
   color: #f0f0f0;
 }
+
